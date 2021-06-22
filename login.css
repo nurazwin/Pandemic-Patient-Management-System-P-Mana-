@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body{
+	margin: 0;
+	 padding: 0;
+     background: url("image/blue1.png");
+    background-size: 100%;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+/* body {
+    
+      background-size: 100%;
+      background-position: 5px -1px;
+} */
+
+header{
+	background: rgb(4, 78, 100);
+	color: rgb(255, 255, 255);
+	padding: 8px 20px 6px 40px;
+	height: 50px;
+}
+
+header h1{
+	display: inline;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+nav ul {
+	display: inline;
+	padding: 0px;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px;
+	
+
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;	
+}
+
+
+nav ul ul{
+	display: none;
+	position: absolute;
+}
+
+#navli ul li ul:hovar{
+	visibility: visible;
+	display: block;
+}
+
+
+
+
+
+#navli{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.homeclick{
+	background-color: rgb(0, 0, 0);
+	padding: 30px 10px 22px 10px;
+}
+
+.divider{
+	background-color: rgb(0, 0, 0);
+	height: 5px;
+}
+
+.homeblack:hover{
+	background-color: rgb(0, 0, 0);
+	padding: 30px 10px 21px 10px;
+
+}
+
+#divimg{
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:  rgb(2, 68, 88);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #038a94;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 1px solid#000000;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+
+.box{
+    width: 700px;
+    height: 670px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    top: 58%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+.box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:  rgb(2, 68, 88);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #038a94;
+    color: #000;
+}
+.box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.box a:hover
+{
+    color: #ffc107;
+}
+
+.p1{
+    font-size: px; 
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}

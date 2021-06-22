@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medical Staff Login | PPMS</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>P-MANA</h1>
+			<ul id="navli">
+				<li><a class="homeblack" href="index.html">HOME</a></li>
+                <li><a class="homeblack" href="patientlogin.html">Login Patient</a></li>
+                <li><a class="homeclick" href="mslogin.html">Login Medical Staff</a></li>
+                <li><a class="homeblack" href="adminlogin.html">Login Admin</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<div class="divider"></div>
+
+	<div class="loginbox">
+        <h1>Login Medical Staff</h1>
+        <form action="mslogin.php" method="POST">
+
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email" placeholder="Enter Email"value="" required><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" placeholder="Password"value="" required><br>
+            
+            <input type="submit" name="login-submit" value="Login">
+           
+        </form>
+        
+    </div>
+</body>
+</html>

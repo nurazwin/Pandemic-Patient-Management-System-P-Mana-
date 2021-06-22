@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Register | PPMS</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>P-MANA</h1>
+			<ul id="navli">
+				<li><a class="homeblack" href="index.html">HOME</a></li>
+                <li><a class="homeblack" href="patientregister.html">Register Patient</a></li>
+                <li><a class="homeblack" href="msregister.html">Register Medical Staff</a></li>
+                <li><a class="homeclick" href="adminregister.html">Register Admin</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<div class="divider"></div>
+
+	<div class="loginbox">
+        <h1>Register Admin</h1>
+        <form action="adminregister.php" method="POST">
+
+            <p>Name</p>
+            <input type="text" id="name" name="name"placeholder="Enter Full Name" required="required">
+            <p>Email</p>
+            <input type="text" id="email" name="email"placeholder="Enter Email" required="required">
+            <p>Password</p>
+            <input type="text" id="password" name="password"placeholder="Enter Password" required="required">
+            <input type="submit" name="login-submit" value="Submit">
+           
+        </form>
+        
+    </div>
+</body>
+</html>

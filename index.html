@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<style>
+		h1{
+			color: rgb(0, 0, 0);
+		}
+	</style>
+	<title>PPMS - HOME</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat" rel="stylesheet">
+	<link href="https://www.w3schools.com/w3css/3/w3.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+	<body>
+		<header>
+			<nav>
+				<h1>P-MANA</h1>
+				<ul id="navli">
+					<li><a class="homeclick" href="index.html">HOME</a></li>
+					<li><a class="homeblack" href="aboutus.html">ABOUT US</a></li>
+					<li><a class="homeblack" href="contact.html">CONTACT</a></li>
+					<li><a class="homeblack" href="patientlogin.html">LOG IN</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div class="divider"></div>
+		<div id="divimg">
+			
+		</div>
+		<div style="margin-top: 50px">
+			<h1 style="font-family: 'Raleway'; font-weight: 200; font-size: 50px; margin-top: 100px; text-align: center;">Welcome to Pandemic Patient Management System</h1>
+			<div style="margin-top: 50px"></div>
+		</div>
+		<section>
+			<!-- <img class="mySlides" src="image/covid1.jpg" style="width:100%"> -->
+			<img class="mySlides" src="image/covid2.png" style="width:100%">
+			<img class="mySlides" src="image/covid3.jpg" style="width:100%">
+			<img class="mySlides" src="image/covid4.jpg" style="width:100%">
+			<img class="mySlides" src="image/covid5.png" style="width:100%">
+		  </section>
+
+		  <script>
+			// Automatic Slideshow - change image every 3 seconds
+			var myIndex = 0;
+			carousel();
+			
+			function carousel() {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			  }
+			  myIndex++;
+			  if (myIndex > x.length) {myIndex = 1}
+			  x[myIndex-1].style.display = "block";
+			  setTimeout(carousel, 4000);
+			}
+			</script>
+
+	
+</body>
+</html>
